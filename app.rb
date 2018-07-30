@@ -1,9 +1,10 @@
-require_relative 'config/environment'
+require 'sinatra'
+require 'rake'
 
 class App < Sinatra::Base
 
   get '/' do
-    "Welcome to your app!!!! Shotgun!!"
+    "Hello, World!"
   end
 
 end
